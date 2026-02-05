@@ -1,0 +1,36 @@
+{
+  "game_title": "Super Mario Bros (NES)",
+  "description": "Preset por defecto para entrenar bots en el nivel 1-1.",
+  "buttons": {
+    "A": "JUMP",
+    "B": "RUN",
+    "START": "PAUSE",
+    "SELECT": "MENU",
+    "UP": "LOOK",
+    "DOWN": "DUCK",
+    "LEFT": "MOVE_LEFT",
+    "RIGHT": "MOVE_RIGHT"
+  },
+  "sequences": [
+    {
+      "name": "salto_largo",
+      "pattern": "RUN+JUMP",
+      "frames": 18
+    },
+    {
+      "name": "avance_seguro",
+      "pattern": "MOVE_RIGHT+RUN",
+      "frames": 30
+    },
+    {
+      "name": "salto_rebote",
+      "pattern": "JUMP+RUN",
+      "frames": 12
+    },
+    {
+      "name": "freno_rapido",
+      "pattern": "MOVE_LEFT+DUCK",
+      "frames": 8
+    }
+  ]
+}
